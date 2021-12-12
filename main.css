@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #C2B280;
+    display: flex;
+    flex-direction: column;
+}
+
+.beach {
+    margin-bottom: 15em;
+    z-index: -1;
+}
+
+.wave1 {
+    filter: drop-shadow(0 -2px 0 #FFFFFF);
+    opacity: 85%;
+}
+
+.wave2 {
+    filter: drop-shadow(0 -2px 0 #FFFFFF);
+    position: absolute;
+    top: 47.3em;
+}
+
+.wave3 {
+    filter: drop-shadow(0 -2px 0 #FFFFFF);
+    position: absolute;
+    top: 63.4em;
+}
+
+.wave4 {
+    filter: drop-shadow(0 -2px 0 #FFFFFF);
+    position: absolute;
+    top: 79.5em;
+}
+
+.wave5 {
+    filter: drop-shadow(0 -2px 0 #FFFFFF);
+    position: absolute;
+    top: 95.7em;
+}
+
+
+section {
+    margin: 0;
+    /* overflow: auto; */
+    padding-bottom: 15em;
+    display: inline-block;
+}
+
+.shallow {
+    background-color: #def3f6;
+    opacity: 85%;
+}
+
+.swim {
+    background-color: #7fcdff;
+}
+
+.surf {
+    background-color: #76b6c4;
+}
+
+.shark {
+    background-color: #1da2d8;
+}
+
+.deep {
+    background-color: #064273;
+}
+
+/* Ocean color pallete: https://www.color-hex.com/color-palette/3497 */
