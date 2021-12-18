@@ -72,4 +72,22 @@ section {
     background-color: #064273;
 }
 
+.ripple {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    position: fixed;
+    border-radius: 50%;
+    border: 1px solid #ffffff59;
+    z-index: 100;
+ }
+ 
+ @keyframes ripple-effect {
+    to {
+       transform:scale(15);
+       opacity: 0.01;
+       z-index: 100;
+    }
+ }
+
 /* Ocean color pallete: https://www.color-hex.com/color-palette/3497 */
